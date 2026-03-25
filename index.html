@@ -6,48 +6,61 @@
     <style>
         body {
             font-family: "Aptos", "Arial", sans-serif;
-            line-height: 1.5;
+            line-height: 1.6;
             color: #333;
             max-width: 800px;
             margin: 40px auto;
-            padding: 20px;
+            padding: 40px;
             background-color: #ffffff;
             border: 1px solid #ccc;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            text-align: center; /* Centers the text and inline elements */
         }
-        h1, h2 {
-            color: #000;
-            margin-bottom: 10px;
-        }
+        
         .portfolio-header {
             font-weight: bold;
-            font-size: 1.2em;
+            font-size: 1.4em;
             text-transform: uppercase;
             border-bottom: 2px solid #000;
-            padding-bottom: 5px;
-            margin-bottom: 20px;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            display: inline-block; /* Allows the border to fit the text width */
         }
+
         .section-title {
             font-weight: bold;
-            font-size: 1.1em;
-            margin-top: 30px;
-            margin-bottom: 15px;
+            font-size: 1.2em;
+            margin-top: 40px;
+            margin-bottom: 20px;
             display: block;
+            text-decoration: underline;
         }
+
         .lab-item {
-            margin-bottom: 40px;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the image and caption vertically */
         }
+
         .lab-item img {
-            max-width: 100%;
+            max-width: 90%;
             height: auto;
-            display: block;
-            margin-bottom: 10px;
-            border: 1px solid #eee;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 12px;
         }
+
         .caption {
-            font-size: 0.9em;
-            color: #555;
-            font-style: italic;
+            font-size: 1em;
+            color: #444;
+            max-width: 80%;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 40px 0;
         }
     </style>
 </head>
